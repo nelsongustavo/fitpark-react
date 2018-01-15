@@ -1,0 +1,21 @@
+.header .navbar-brand {
+  height: 80px;
+}
+
+.header .nav >li > a {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header .nav > li.Button > a {
+    background-color: #dc0a17; /* Green */
+    border: 1px solid #ab0812;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font: 700 14px "Roboto", helvetica, arial, sans-serif;
+}

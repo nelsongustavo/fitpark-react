@@ -1,14 +1,23 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 export default function Header() {
   return (
-    <div className="header">
-      <header>
-        <Navbar inverse className="header">
-          <a href="/">FitPark<span>Academia</span></a>
-        </Navbar>
-      </header>
-    </div>
+    <header className="header">
+      <Navbar inverse>
+        <Navbar.Header>
+          <Navbar.Brand>
+            <a href="http://disputebills.com"><img src="http://www.fitparkacademia.com.br/wp-content/themes/ovid/data/1330435782_Logomarca_fitPark.png" alt="Dispute Bills" /></a>
+          </Navbar.Brand>
+        </Navbar.Header>
+        <Navbar.Collapse>
+          <Nav pullRight>
+    				<NavItem className="Button" eventKey={1} href="#">
+    					COMPRE AGORA
+    				</NavItem>
+  			 </Nav>
+       </Navbar.Collapse>
+      </Navbar>
+    </header>
   );
 }
