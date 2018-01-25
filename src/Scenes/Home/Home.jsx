@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid } from 'react-bootstrap';
 import Layout from '../../Shared/Layout';
+import Intro from './_/Intro';
 import './Home.css';
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <Layout>
           <div className="banner">
             <Grid>
-              <h1>FitPark Academia</h1>
+              <Intro />
             </Grid>
           </div>
         </Layout>

@@ -7,7 +7,7 @@ export default function Footer() {
         <Grid>
           <img class="logo" alt="Smart Fit" title="Smart Fit" src="http://www.fitparkacademia.com.br/wp-content/themes/ovid/data/1330435782_Logomarca_fitPark.png" />
           <Row className="show-grid footer-menu">
-            <Col sm={6} md={3}>
+            <Col sm={6} md={6}>
               <h3>Institucional</h3>
             	<ul className="list">
                 <li className="item"><a href="/">teste</a></li>
@@ -15,7 +15,7 @@ export default function Footer() {
                 <li className="item"><a href="/">teste</a></li>
               </ul>
             </Col>
-            <Col sm={6} md={3}>
+            <Col sm={6} md={6}>
               <h3>Planos</h3>
               <ul className="list">
                 <li className="item"><a href="/">teste</a></li>

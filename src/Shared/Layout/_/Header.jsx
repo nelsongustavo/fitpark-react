@@ -7,7 +7,7 @@ export default function Header() {
       <Navbar inverse>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="http://disputebills.com"><img src="http://www.fitparkacademia.com.br/wp-content/themes/ovid/data/1330435782_Logomarca_fitPark.png" alt="Dispute Bills" /></a>
+            <a href="/"><img src="http://www.fitparkacademia.com.br/wp-content/themes/ovid/data/1330435782_Logomarca_fitPark.png" alt="Dispute Bills" /></a>
           </Navbar.Brand>
         </Navbar.Header>
         <Navbar.Collapse>
