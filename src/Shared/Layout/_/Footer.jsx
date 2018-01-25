@@ -1,20 +1,6 @@
 import React from 'react';
 import { Grid, Col, Row } from 'react-bootstrap';
 
-const dummySentences = [
-	'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-	'Donec hendrerit tempor tellus.',
-	'Donec pretium posuere tellus.',
-	'Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.',
-	'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-	'Nulla posuere.',
-	'Donec vitae dolor.',
-	'Nullam tristique diam non turpis.',
-	'Cras placerat accumsan nulla.',
-	'Nullam rutrum.',
-	'Nam vestibulum accumsan nisl.'
-];
-
 export default function Footer() {
   return (
     <footer className="footer">
@@ -24,33 +10,33 @@ export default function Footer() {
             <Col sm={6} md={3}>
               <h3>Institucional</h3>
             	<ul className="list">
-                <li className="item"><a href="#">teste</a></li>
-                <li className="item"><a href="#">teste</a></li>
-                <li className="item"><a href="#">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
               </ul>
             </Col>
             <Col sm={6} md={3}>
               <h3>Planos</h3>
               <ul className="list">
-                <li className="item"><a href="#">teste</a></li>
-                <li className="item"><a href="#">teste</a></li>
-                <li className="item"><a href="#">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
               </ul>
             </Col>
             <Col sm={6} md={3}>
               <h3>Corporativo</h3>
               <ul className="list">
-                <li className="item"><a href="#">teste</a></li>
-                <li className="item"><a href="#">teste</a></li>
-                <li className="item"><a href="#">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
               </ul>
             </Col>
             <Col sm={6} md={3}>
               <h3>Siga a FitPark</h3>
               <ul className="list">
-                <li className="item"><a href="#">teste</a></li>
-                <li className="item"><a href="#">teste</a></li>
-                <li className="item"><a href="#">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
+                <li className="item"><a href="/">teste</a></li>
               </ul>
             </Col>
           </Row>
